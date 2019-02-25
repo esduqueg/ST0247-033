@@ -1,6 +1,6 @@
 
 /**
- * This program gives us the number of valid tables for a specified nxn table taht miay have invalid positions.
+ * This program gives us the number of valid tables for a specified nxn table that may have invalid positions.
  * This class has a Read method that reads the size and invalid squares of the table.
  * It also has the method Backtrack used to determine whether a table is valid or not, and it returns the number of valid tables.
  *
