@@ -1,0 +1,1 @@
+This files contains the methods needed to solve the nQueens problem from exercise #2 in Lab03.
