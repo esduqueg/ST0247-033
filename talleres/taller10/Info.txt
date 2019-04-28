@@ -1,0 +1,2 @@
+In the source folder you will find the file that implements LCS (Longest Common Subsequence) and the main class with a basic menu.
+The LCS file has the respective methods for both the Exercise #1 and Exercise#2(Optional).
