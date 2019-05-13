@@ -1,0 +1,75 @@
+
+import java.util.Scanner;
+
+public class Menu {
+
+    public Menu(){
+
+        displayMenu();
+
+    }
+
+    private static void displayMenu(){
+
+        String path;
+        Scanner sca;
+        Reader01 r;
+
+        System.out.println("\t\tWelcome\n" +
+                           "This program let you create and work with Graphs using simple methods.\n" +
+                           "Lets get started!!");
+        /*System.out.println("Please enter the name of the file you wanna read from.\n" +
+                           "Press enter default if you wanna use the default one.\n" +
+                           "File: ");
+
+        sca = new Scanner(System.in);
+        path = sca.nextLine();
+
+        if(path.toLowerCase().equals("default")){
+
+            path = "medellin_colombia-grande.txt";
+
+        }
+
+        */
+
+        sca = new Scanner(System.in);
+        path = "C:\\Users\\pedro\\Documents\\medellin_colombia-grande.txt";
+
+        r = new Reader01(path);
+        boolean loop = true;
+
+        while(loop){
+
+            System.out.println("Enter the number of the action you wanna do: \n" +
+                               "1)View the arcs(Connections) of a node.\n" +
+                               "2)View the distance from a node to other.\n" +
+                               "3)To exit this program.\n");
+
+            int decision = sca.nextInt();
+            long nodeId;
+
+            switch (decision){
+
+                case 1: System.out.println("Enter the id of the node: ");
+                        nodeId = sca.nextLong();
+                        r.giveArcs(nodeId);
+                        break;
+
+                case 2: System.out.println("Enter the id of the beginning node: ");
+                        nodeId = sca.nextInt();
+                        System.out.println("Enter the id of the ending node: ");
+                        long endNodeId = sca.nextLong();
+                        r.giveDistance(nodeId, endNodeId);
+
+                case 3: loop=false;
+                        break;
+
+            }
+
+        }
+
+
+    }
+
+}
