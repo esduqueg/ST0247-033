@@ -1,0 +1,37 @@
+This are the routes for the employees whos houses are in the C://Users//pedro//Documents//dataset-ejemplo-U=11-p=1.3.txt
+
+
+Total Cars  5
+Cars Reduced: 45%
+Reading Time: 4ms
+Finding Routes Time: 0ms
+ROUTE #1
+
+
+11 (II )  ->  9 (Fuente )  ->  1 Universidad EAFIT 		Total Route Cost = 60.0
+------------------------------------------------------------------------------------------------------------------------------
+
+ROUTE #2
+
+
+6 (invasión )  ->  5 (II )  ->  1 Universidad EAFIT 		Total Route Cost = 47.0
+------------------------------------------------------------------------------------------------------------------------------
+
+ROUTE #3
+
+
+7 (Robledo )  ->  2 ()  ->  1 Universidad EAFIT 		Total Route Cost = 34.0
+------------------------------------------------------------------------------------------------------------------------------
+
+ROUTE #4
+
+
+8 ()  ->  10 ()  ->  4 (Verde )  ->  1 Universidad EAFIT 		Total Route Cost = 29.0
+------------------------------------------------------------------------------------------------------------------------------
+
+ROUTE #5
+
+
+1 Universidad EAFIT 		Total Route Cost = 6.0
+------------------------------------------------------------------------------------------------------------------------------
+
